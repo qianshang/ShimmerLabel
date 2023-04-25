@@ -2,4 +2,4 @@
 
 带闪光的标签
 
-![预览](https://github.com/qianshang/ShimmerLabel/preview.mp4)
+![预览](https://github.com/qianshang/ShimmerLabel/blob/main/preview.mp4)
