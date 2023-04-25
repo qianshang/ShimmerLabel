@@ -13,6 +13,7 @@
 		CEABD2A129F7D7C500A9E1E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEABD29F29F7D7C500A9E1E1 /* Main.storyboard */; };
 		CEABD2A329F7D7C800A9E1E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEABD2A229F7D7C800A9E1E1 /* Assets.xcassets */; };
 		CEABD2A629F7D7C800A9E1E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEABD2A429F7D7C800A9E1E1 /* LaunchScreen.storyboard */; };
+		CEABD2AE29F7D81A00A9E1E1 /* ShimmerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABD2AD29F7D81A00A9E1E1 /* ShimmerLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,10 @@
 		CEABD2A229F7D7C800A9E1E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEABD2A529F7D7C800A9E1E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEABD2A729F7D7C800A9E1E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEABD2AD29F7D81A00A9E1E1 /* ShimmerLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerLabel.swift; sourceTree = "<group>"; };
+		CEABD2AF29F7DF0A00A9E1E1 /* preview.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = preview.mp4; path = ../../../Downloads/preview.mp4; sourceTree = "<group>"; };
+		CEABD2B029F7DF1100A9E1E1 /* preview.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = preview.mp4; sourceTree = "<group>"; };
+		CEABD2B129F7DF2C00A9E1E1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +45,8 @@
 		CEABD28D29F7D7C500A9E1E1 = {
 			isa = PBXGroup;
 			children = (
+				CEABD2B129F7DF2C00A9E1E1 /* README.md */,
+				CEABD2B029F7DF1100A9E1E1 /* preview.mp4 */,
 				CEABD29829F7D7C500A9E1E1 /* ShimmerLabel */,
 				CEABD29729F7D7C500A9E1E1 /* Products */,
 			);
@@ -59,10 +66,12 @@
 				CEABD29929F7D7C500A9E1E1 /* AppDelegate.swift */,
 				CEABD29B29F7D7C500A9E1E1 /* SceneDelegate.swift */,
 				CEABD29D29F7D7C500A9E1E1 /* ViewController.swift */,
+				CEABD2AD29F7D81A00A9E1E1 /* ShimmerLabel.swift */,
 				CEABD29F29F7D7C500A9E1E1 /* Main.storyboard */,
 				CEABD2A229F7D7C800A9E1E1 /* Assets.xcassets */,
 				CEABD2A429F7D7C800A9E1E1 /* LaunchScreen.storyboard */,
 				CEABD2A729F7D7C800A9E1E1 /* Info.plist */,
+				CEABD2AF29F7DF0A00A9E1E1 /* preview.mp4 */,
 			);
 			path = ShimmerLabel;
 			sourceTree = "<group>";
@@ -140,6 +149,7 @@
 			files = (
 				CEABD29E29F7D7C500A9E1E1 /* ViewController.swift in Sources */,
 				CEABD29A29F7D7C500A9E1E1 /* AppDelegate.swift in Sources */,
+				CEABD2AE29F7D81A00A9E1E1 /* ShimmerLabel.swift in Sources */,
 				CEABD29C29F7D7C500A9E1E1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +305,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +334,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
