@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE0D59652A483D4600611C96 /* SingleTextShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0D59642A483D4600611C96 /* SingleTextShimmerView.swift */; };
 		CEABD29A29F7D7C500A9E1E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABD29929F7D7C500A9E1E1 /* AppDelegate.swift */; };
 		CEABD29C29F7D7C500A9E1E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABD29B29F7D7C500A9E1E1 /* SceneDelegate.swift */; };
 		CEABD29E29F7D7C500A9E1E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABD29D29F7D7C500A9E1E1 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE0D59642A483D4600611C96 /* SingleTextShimmerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleTextShimmerView.swift; sourceTree = "<group>"; };
 		CEABD29629F7D7C500A9E1E1 /* ShimmerLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShimmerLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEABD29929F7D7C500A9E1E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEABD29B29F7D7C500A9E1E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				CEABD29929F7D7C500A9E1E1 /* AppDelegate.swift */,
 				CEABD29B29F7D7C500A9E1E1 /* SceneDelegate.swift */,
 				CEABD29D29F7D7C500A9E1E1 /* ViewController.swift */,
+				CE0D59642A483D4600611C96 /* SingleTextShimmerView.swift */,
 				CEABD2AD29F7D81A00A9E1E1 /* ShimmerLabel.swift */,
 				CEABD29F29F7D7C500A9E1E1 /* Main.storyboard */,
 				CEABD2A229F7D7C800A9E1E1 /* Assets.xcassets */,
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0D59652A483D4600611C96 /* SingleTextShimmerView.swift in Sources */,
 				CEABD29E29F7D7C500A9E1E1 /* ViewController.swift in Sources */,
 				CEABD29A29F7D7C500A9E1E1 /* AppDelegate.swift in Sources */,
 				CEABD2AE29F7D81A00A9E1E1 /* ShimmerLabel.swift in Sources */,
